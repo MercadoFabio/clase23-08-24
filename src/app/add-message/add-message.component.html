@@ -1,0 +1,6 @@
+    <!--(input)="onMsj($event)"-->
+    <div class="container m-1" style="border: 3px solid green">
+        <input type="text" class="form-control mb-2 mt-2"  [(ngModel)]="newMessage" placeholder="Escribe un mensaje">
+        <button class="btn btn-primary m-2" (click)="addMessage()">Enviar msj</button>
+    </div>
+    
